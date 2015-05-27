@@ -1,0 +1,25 @@
+.container {
+  background: #1E1E1E;
+  width: 150px;
+  border-radius: 15px;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 8px; 
+}
+
+.row {
+    clear: left;
+}
+
+.key {
+    border: 1px solid #282828;
+  border-radius: 50%;
+  color: #999;
+  cursor: pointer;
+  float: left;
+  margin: 8px 0px;
+  margin-right: 8px;
+  padding: 12px 8px;
+  width: 10px;
+  text-align: center;
+}

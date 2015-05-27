@@ -7,12 +7,11 @@
   padding: 8px; 
 }
 
-.row {
-    clear: left;
-}
-
 .key {
-    border: 1px solid #282828;
+  background: -webkit-linear-gradient(#4B4B4B, #111);
+  background: -moz-linear-gradient(#4B4B4B, #111);
+  background: linear-gradient(#4B4B4B, #111);
+  border: 1px solid #282828;
   border-radius: 50%;
   color: #999;
   cursor: pointer;
@@ -22,4 +21,22 @@
   padding: 12px 8px;
   width: 10px;
   text-align: center;
+}
+
+#screen  {
+    background: #D4DAB6;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    font-size: 2px;
+    line-height: 30px;
+    margin: 10px auto;
+    padding-right: 10px;
+    text-align: right;
+    height: 80px; 
+}
+
+
+.key:hover {
+    background: #999;
+    color: #777;
 }

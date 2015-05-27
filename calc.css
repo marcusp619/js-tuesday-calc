@@ -27,7 +27,7 @@
     background: #D4DAB6;
     border: 1px solid #282828;
     border-radius: 5px;
-    font-size: 2px;
+    font-size: 30px;
     line-height: 30px;
     margin: 10px auto;
     padding-right: 10px;
@@ -35,7 +35,9 @@
     height: 80px; 
 }
 
-
+#ops-queue { 
+  color: #000;
+}
 .key:hover {
     background: #999;
     color: #777;

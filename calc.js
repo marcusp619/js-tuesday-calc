@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
   var operationQueue = [];
 
   var add = function(a, b) {
@@ -22,7 +22,7 @@ $(document).ready(function() {
   var subtract = function(a, b) {
     return a - b;
   };
-  
+
   var performOperation = function(operation, a, b){
     if(operation==="+"){
       return add(a, b);
@@ -35,7 +35,7 @@ $(document).ready(function() {
     }
   };
 
-  $('.key').click(function() {
+  $('.keys').click(function() {
     var value = $(this).html();
     if(value === "="){
       a = operationQueue.shift();
@@ -46,6 +46,6 @@ $(document).ready(function() {
     } else {
       operationQueue.push(value);
     }
-    $( '#ops-queue' ).html(operationQueue);
+    $( '.screen' ).html(operationQueue);
   });
 });
